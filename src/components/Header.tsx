@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Zap } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const Header = () => {
   return (
@@ -25,6 +26,7 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <Button variant="ghost">Sign In</Button>
           <Button variant="hero">Get Started</Button>
         </div>
