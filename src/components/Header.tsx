@@ -1,16 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { Zap } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full bg-background">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary">
-            <Zap className="h-5 w-5 text-white" />
-          </div>
-          <span className="text-xl font-bold">Teemo-Ops</span>
+          <span className="text-xl font-bold tracking-tight">TEEMO-OPS</span>
         </div>
         
         <nav className="hidden md:flex items-center gap-8">
@@ -25,10 +21,10 @@ const Header = () => {
           </a>
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
           <ThemeToggle />
-          <Button variant="ghost">Sign In</Button>
-          <Button variant="hero">Get Started</Button>
+          <Button variant="ghost" className="text-sm">Sign In</Button>
+          <Button variant="orange" className="text-sm font-medium">Try Teemo-Ops</Button>
         </div>
       </div>
     </header>
