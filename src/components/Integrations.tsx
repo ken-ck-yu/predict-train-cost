@@ -7,8 +7,9 @@ const Integrations = () => {
             Seamless integration with your{" "}
             <span className="underline decoration-orange decoration-4">workflow</span>
           </h2>
-          
-          <div className="bg-card border rounded-lg p-8">
+
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
                 IDE
               </div>
@@ -21,7 +22,6 @@ const Integrations = () => {
               </div>
             </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
                 GITHUB
