@@ -11,7 +11,7 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <ThemeProvider defaultTheme="dark" storageKey="teemo-ui-theme">
+    <ThemeProvider defaultTheme="light" storageKey="teemo-ui-theme">
       <TooltipProvider>
         <Toaster />
         <Sonner />
