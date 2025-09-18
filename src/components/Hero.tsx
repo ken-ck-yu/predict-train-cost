@@ -14,11 +14,11 @@ const Hero = () => {
           <div className="grid md:grid-cols-2 gap-8 mt-16">
             <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
-                TEEMO-OPS.AI
+                VS Code Extension
               </div>
               <h3 className="text-xl font-medium mb-4">Eliminate Training Guesswork</h3>
               <p className="text-muted-foreground mb-6">
-                Predict training time, costs, and resource requirements before you hit "run".
+                Predict training time, costs, and resource requirements while you code.
               </p>
               <Button variant="hero" className="w-full">
                 Start Analysis
@@ -27,14 +27,14 @@ const Hero = () => {
             
             <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
-                API
+                Github Integration + API (Coming Soon)
               </div>
               <h3 className="text-xl font-medium mb-4">Build with Teemo</h3>
               <p className="text-muted-foreground mb-6">
-                Integrate cost prediction into your ML workflow with our API and SDK.
+                Integrate cost prediction into your ML workflow with our Github Integration and SDK.
               </p>
               <Button variant="outline" className="w-full">
-                View Documentation
+                Contact Us
               </Button>
             </div>
           </div>

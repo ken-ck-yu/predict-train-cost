@@ -17,13 +17,13 @@ const Header = () => {
             Integrations
           </a>
           <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">
-            Pricing
+            Contact Us
           </a>
         </nav>
 
         <div className="flex items-center gap-6">
           <ThemeToggle />
-          <Button variant="ghost" className="text-sm">Sign In</Button>
+          {/* <Button variant="ghost" className="text-sm">Sign In</Button> */}
           <Button variant="orange" className="text-sm font-medium">Try Teemo-Ops</Button>
         </div>
       </div>

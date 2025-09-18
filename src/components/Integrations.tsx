@@ -8,6 +8,19 @@ const Integrations = () => {
             <span className="underline decoration-orange decoration-4">workflow</span>
           </h2>
           
+          <div className="bg-card border rounded-lg p-8">
+              <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
+                IDE
+              </div>
+              <h3 className="text-xl font-medium mb-4">VS Code Extension</h3>
+              <p className="text-muted-foreground mb-6">
+                Real-time cost estimates directly in your development environment.
+              </p>
+              <div className="text-sm text-muted-foreground">
+                Available now
+              </div>
+            </div>
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
@@ -18,33 +31,22 @@ const Integrations = () => {
                 Automatic cost analysis on every PR with detailed reports and recommendations.
               </p>
               <div className="text-sm text-muted-foreground">
-                Available now
+                Contact Us
               </div>
             </div>
             
-            <div className="bg-card border rounded-lg p-8">
-              <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
-                VS CODE
-              </div>
-              <h3 className="text-xl font-medium mb-4">IDE Extension</h3>
-              <p className="text-muted-foreground mb-6">
-                Real-time cost estimates directly in your development environment.
-              </p>
-              <div className="text-sm text-muted-foreground">
-                Available now
-              </div>
-            </div>
+            
             
             <div className="bg-card border rounded-lg p-8">
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
-                API
+                UI
               </div>
-              <h3 className="text-xl font-medium mb-4">REST API & SDK</h3>
+              <h3 className="text-xl font-medium mb-4">Web Dashboard</h3>
               <p className="text-muted-foreground mb-6">
-                Integrate cost estimation into your custom ML workflows and pipelines.
+                Centralized platform to manage projects, view analytics, and optimize costs.
               </p>
               <div className="text-sm text-muted-foreground">
-                Available now
+                Contact Us
               </div>
             </div>
             
@@ -52,7 +54,7 @@ const Integrations = () => {
               <div className="text-sm uppercase tracking-wide text-muted-foreground mb-4">
                 PYTHON
               </div>
-              <h3 className="text-xl font-medium mb-4">Native SDK</h3>
+              <h3 className="text-xl font-medium mb-4">SDK</h3>
               <p className="text-muted-foreground mb-6">
                 Native Python integration with CLI tools and Jupyter notebook support.
               </p>

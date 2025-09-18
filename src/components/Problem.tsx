@@ -4,7 +4,7 @@ const Problem = () => {
       <div className="container px-4 md:px-6">
         <div className="max-w-4xl">
           <h2 className="text-4xl lg:text-6xl font-light tracking-tight leading-tight mb-8">
-            ML teams waste <span className="underline decoration-orange decoration-4">thousands</span> on failed training runs
+            Stop wasting <span className="underline decoration-orange decoration-4">GPUs</span> on failed training runs
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8 mt-16">

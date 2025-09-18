@@ -16,7 +16,6 @@ const Footer = () => {
               <span className="text-xl font-bold">Teemo-Ops</span>
             </div>
             <p className="text-muted-foreground">
-              Intelligent ML Training Cost Estimation. 
               Eliminate guesswork and optimize your machine learning workflows.
             </p>
             <div className="flex gap-2">
@@ -43,14 +42,14 @@ const Footer = () => {
                 Features
               </a>
               <a href="#pricing" className="block text-muted-foreground hover:text-foreground transition-colors">
-                Pricing
+                Contact Us
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
+              {/* <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 Documentation
               </a>
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 API Reference
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -59,22 +58,19 @@ const Footer = () => {
             <h4 className="font-semibold">Integrations</h4>
             <div className="space-y-2 text-sm">
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                GitHub
-              </a>
-              <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
                 VS Code
               </a>
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                Python SDK
+                Github (Coming Soon)
               </a>
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
-                REST API
+                Python SDK (Coming Soon)
               </a>
             </div>
           </div>
 
           {/* Company */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h4 className="font-semibold">Company</h4>
             <div className="space-y-2 text-sm">
               <a href="#" className="block text-muted-foreground hover:text-foreground transition-colors">
@@ -91,7 +87,7 @@ const Footer = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <Separator className="my-8" />
 
