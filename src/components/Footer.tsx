@@ -86,8 +86,8 @@ const Footer = () => {
                 Contact
               </a>
             </div>
-          </div>
-        </div> */}
+          </div>*/}
+        </div> 
 
         <Separator className="my-8" />
 
